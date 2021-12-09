@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section--title {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    margin: 0 auto;
+    background-color: #FF0075;
+}
+
+.main-section--title h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.main-section--title p {
+    font-size: 1.4rem;
+}
