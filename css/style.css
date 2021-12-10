@@ -19,7 +19,28 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     border: 1px solid #C32BAD;
-    background-color: #F56FAD;
+    background-color: #FEF5ED;
+}
+
+.main-headboard {
+    display: flex;
+    background-color: #FF87CA;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 2px 20px 0 rgb(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.main-headboard p {
+    font-size: 2.6rem;
+    padding: 0 10px;
+}
+
+.main-headboard .tagline {
+    font-size: 1.6rem;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #000D6B;
 }
 
 .main-container--title {
