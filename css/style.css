@@ -60,4 +60,5 @@ body{
 .main-section--title p {
     font-size: 1.8rem;
     text-align: justify;
+    padding-bottom: 10px;
 }
