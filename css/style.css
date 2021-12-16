@@ -10,9 +10,10 @@ html{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #7F7C82;
 }
 
-.main-section--title {
+.main-section--card {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -22,6 +23,12 @@ body{
     background-color: #FEF5ED;
 }
 
+.main-section--card p {
+    font-size: 1.8rem;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
 .main-headboard {
     display: flex;
     background-color: #FF87CA;
@@ -29,6 +36,12 @@ body{
     color: white;
     box-shadow: 0 2px 20px 0 rgb(0, 0, 0, 0.5);
     align-items: center;
+}
+
+.main-headboard img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
 }
 
 .main-headboard p {
@@ -43,7 +56,7 @@ body{
     color: #000D6B;
 }
 
-.main-container--title {
+.main-container--body {
     display: flex;
     flex-direction: column;
     width: 95%;
@@ -51,14 +64,9 @@ body{
     color: #000D6B;
 }
 
-.main-container--title h1 {
+.main-container--body h1 {
     font-size: 2.6rem;
     margin: 10px auto;
     text-align: center;
 }
 
-.main-section--title p {
-    font-size: 1.8rem;
-    text-align: justify;
-    padding-bottom: 10px;
-}
