@@ -70,6 +70,17 @@ body{
     text-align: center;
 }
 
+.container--img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.main-container--body img {
+    width: 150px;
+    height: 200px;
+}
+
 .main-section--title p {
     font-size: 1.8rem;
     text-align: justify;
